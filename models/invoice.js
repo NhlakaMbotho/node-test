@@ -1,5 +1,5 @@
 module.exports = class Invoice {
-  constructor (dynamicInvoiceData) {
+  constructor(dynamicInvoiceData) {
     this.id = dynamicInvoiceData.id;
     this.dateTime = dynamicInvoiceData.dateTime;
     this.amount = dynamicInvoiceData.amount;
@@ -13,13 +13,13 @@ module.exports = class Invoice {
       lastName: dynamicInvoiceData.customer.lastName,
       email: dynamicInvoiceData.customer.email
     };
-    this.items = dynamicInvoiceData.items.map(item => {
+    this.items = dynamicInvoiceData.items.map((item) => {
       return {
         category: item.category,
         name: item.name,
         price: item.price,
         code: item.code
-      }
+      };
     });
   }
-}
+};
