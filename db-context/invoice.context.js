@@ -3,37 +3,37 @@ const Invoice = require("../models/invoice");
 const init = require("../seed");
 
 /**
- * I would've used private variables for the '_' prefixed variables if I had the time to setup experimental featues or oppotunity to use TS :)
+ * I would've used private variables for the '_' prefixed variables if I had the time to setup experimental features or opportunity to use TS :)
  */
 module.exports = class InvoiceDbContext {
   _invoices = null;
 
-  static init() {
+  static init () {
     this._invoices = init().map((invoice) => new Invoice(invoice)) || [];
   }
 
-  static getById(id) {
+  static getById (id) {
     const index = this._verifyById(id);
     return this._invoices[index];
   }
 
-  static getAll() {
+  static getAll () {
     return this._invoices;
   }
 
-  static deleteInvoice(id) {
+  static deleteInvoice (id) {
     const index = this._verifyById(id);
     this._invoices.splice(index, 1);
     return;
   }
 
-  static updateInvoice(id, invoiceData) {
+  static updateInvoice (id, invoiceData) {
     invoiceData.id = Number(id);
     const index = this._verifyById(invoiceData.id);
     this._invoices[index] = new Invoice(invoiceData);
   }
 
-  static postInvoice(invoiceData) {
+  static postInvoice (invoiceData) {
     invoiceData.id = Number(invoiceData.id);
     if (this._invoices.findIndex((i) => i.id === invoiceData.id) > -1) {
       throw new ServiceError(
@@ -50,7 +50,7 @@ module.exports = class InvoiceDbContext {
    * @param {number} id
    * @returns {number} index
    */
-  static _verifyById(id) {
+  static _verifyById (id) {
     const index = this._invoices.findIndex((i) => i.id === Number(id));
     if (index === -1) {
       throw new ServiceError(`Invoice ${id} does not exist`, "NOT_FOUND", 404);
