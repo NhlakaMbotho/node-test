@@ -3,7 +3,7 @@ const Invoice = require("../models/invoice");
 const init = require("../seed");
 
 /**
- * I would've used private variables for the '_' prefixed variables if I have to time to setup experimental featues or oppotunity to use TS :)
+ * I would've used private variables for the '_' prefixed variables if I had the time to setup experimental featues or oppotunity to use TS :)
  */
 module.exports = class InvoiceDbContext {
   _invoices = null;
