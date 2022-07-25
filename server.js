@@ -12,6 +12,9 @@ app.use("/invoices", invoiceRoute);
 app.use("/", documentationRoute);
 app.use(errorMiddleware)
 
+/**
+ * Typically port numbers would be pulled from a config file in a real project
+ */
 app.listen(8080, () => {
   console.log("Server is listening on port 8080");
 });
