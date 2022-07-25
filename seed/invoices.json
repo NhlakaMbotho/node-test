@@ -1,0 +1,402 @@
+[
+  {
+    "invoiceNo": 1,
+    "dateTime": "6/18/2022",
+    "amount": 877.9,
+    "creditCardType": "visa-electron",
+    "cardNumber": "4913604810141678",
+    "currency": "EUR",
+    "refNumber": "ae9fec6c-2384-4a4b-888f-b166db9f151c",
+    "customer": null
+  },
+  {
+    "invoiceNo": 2,
+    "dateTime": "10/2/2021",
+    "amount": 1139.22,
+    "creditCardType": "jcb",
+    "cardNumber": "3566361973312362",
+    "currency": "KRW",
+    "refNumber": "47af932c-5aaf-43b6-9832-4774fae56d06",
+    "customer": null
+  },
+  {
+    "invoiceNo": 3,
+    "dateTime": "2/27/2022",
+    "amount": 788.88,
+    "creditCardType": "jcb",
+    "cardNumber": "3588403056849755",
+    "currency": "IDR",
+    "refNumber": "0d237034-1198-4f62-a05f-919c542dc25d",
+    "customer": null
+  },
+  {
+    "invoiceNo": 4,
+    "dateTime": "8/15/2021",
+    "amount": 891.24,
+    "creditCardType": "visa-electron",
+    "cardNumber": "4844716986216607",
+    "currency": "CNY",
+    "refNumber": "4e1462ce-95d1-4ea6-a718-74e0e92ddd38",
+    "customer": null
+  },
+  {
+    "invoiceNo": 5,
+    "dateTime": "3/3/2022",
+    "amount": 992.97,
+    "creditCardType": "jcb",
+    "cardNumber": "3552529600983948",
+    "currency": "RUB",
+    "refNumber": "11d392b8-fd3e-474a-8d91-a5edfa894022",
+    "customer": null
+  },
+  {
+    "invoiceNo": 6,
+    "dateTime": "2/26/2022",
+    "amount": 1098.47,
+    "creditCardType": "visa-electron",
+    "cardNumber": "4917365119006832",
+    "currency": "IDR",
+    "refNumber": "532666d6-7541-4000-8964-6c0834301c26",
+    "customer": null
+  },
+  {
+    "invoiceNo": 7,
+    "dateTime": "9/7/2021",
+    "amount": 418.85,
+    "creditCardType": "visa",
+    "cardNumber": "4112708053556325",
+    "currency": "ILS",
+    "refNumber": "5fafeb50-fcb1-4b51-b45e-e438cdd4fc7c",
+    "customer": null
+  },
+  {
+    "invoiceNo": 8,
+    "dateTime": "3/31/2022",
+    "amount": 983.45,
+    "creditCardType": "jcb",
+    "cardNumber": "3554167581293876",
+    "currency": "PHP",
+    "refNumber": "b371558d-4355-4618-b9e3-c08180d52702",
+    "customer": null
+  },
+  {
+    "invoiceNo": 9,
+    "dateTime": "9/2/2021",
+    "amount": 645.2,
+    "creditCardType": "jcb",
+    "cardNumber": "3552888528519600",
+    "currency": "PHP",
+    "refNumber": "f230cea6-acc4-46f9-a9e7-8048a3751ca5",
+    "customer": null
+  },
+  {
+    "invoiceNo": 10,
+    "dateTime": "2/14/2022",
+    "amount": 1197.38,
+    "creditCardType": "maestro",
+    "cardNumber": "63047191976117978",
+    "currency": "NZD",
+    "refNumber": "8387265b-e9d2-4aac-9c32-7ce1c55d2601",
+    "customer": null
+  },
+  {
+    "invoiceNo": 11,
+    "dateTime": "1/6/2022",
+    "amount": 541.66,
+    "creditCardType": "visa-electron",
+    "cardNumber": "4844910141307415",
+    "currency": "JPY",
+    "refNumber": "7e571c92-0ea3-4732-9e7c-e1408d36bc28",
+    "customer": null
+  },
+  {
+    "invoiceNo": 12,
+    "dateTime": "12/22/2021",
+    "amount": 718.13,
+    "creditCardType": "visa-electron",
+    "cardNumber": "4508045242242562",
+    "currency": "EUR",
+    "refNumber": "6257d3c7-9b4c-42c6-bfc5-72965ee640ce",
+    "customer": null
+  },
+  {
+    "invoiceNo": 13,
+    "dateTime": "1/9/2022",
+    "amount": 930.98,
+    "creditCardType": "solo",
+    "cardNumber": "6334620397086900",
+    "currency": "CNY",
+    "refNumber": "6d064429-9a81-4417-b912-0ebe4ac9b633",
+    "customer": null
+  },
+  {
+    "invoiceNo": 14,
+    "dateTime": "2/20/2022",
+    "amount": 441.36,
+    "creditCardType": "mastercard",
+    "cardNumber": "5100178768057947",
+    "currency": "EUR",
+    "refNumber": "d2926f90-c408-4c7f-a249-dbbb68b0bf73",
+    "customer": null
+  },
+  {
+    "invoiceNo": 15,
+    "dateTime": "4/7/2022",
+    "amount": 407.61,
+    "creditCardType": "maestro",
+    "cardNumber": "58938304578960925",
+    "currency": "CNY",
+    "refNumber": "0187de6d-3923-4254-b103-eb60f2fea411",
+    "customer": null
+  },
+  {
+    "invoiceNo": 16,
+    "dateTime": "10/10/2021",
+    "amount": 453.14,
+    "creditCardType": "jcb",
+    "cardNumber": "3532329636704722",
+    "currency": "RUB",
+    "refNumber": "7fbb0ba6-26f4-45d0-9f50-cebb225faa9f",
+    "customer": null
+  },
+  {
+    "invoiceNo": 17,
+    "dateTime": "12/9/2021",
+    "amount": 1000.48,
+    "creditCardType": "jcb",
+    "cardNumber": "3540198733070356",
+    "currency": "IDR",
+    "refNumber": "5a564ae7-6ee7-4a9c-aedf-f246d220196a",
+    "customer": null
+  },
+  {
+    "invoiceNo": 18,
+    "dateTime": "7/8/2022",
+    "amount": 1016.85,
+    "creditCardType": "jcb",
+    "cardNumber": "3570815989635664",
+    "currency": "MMK",
+    "refNumber": "283e7296-f9d2-482e-971d-98f4efec80f5",
+    "customer": null
+  },
+  {
+    "invoiceNo": 19,
+    "dateTime": "4/9/2022",
+    "amount": 747.24,
+    "creditCardType": "jcb",
+    "cardNumber": "3544995359612767",
+    "currency": "LAK",
+    "refNumber": "ab20a72d-dbb0-40c1-ab08-c5ddb659f96d",
+    "customer": null
+  },
+  {
+    "invoiceNo": 20,
+    "dateTime": "4/18/2022",
+    "amount": 629.95,
+    "creditCardType": "jcb",
+    "cardNumber": "3585914265729839",
+    "currency": "IDR",
+    "refNumber": "bbde569c-2b5b-4848-92dd-0d38dc65c490",
+    "customer": null
+  },
+  {
+    "invoiceNo": 21,
+    "dateTime": "3/28/2022",
+    "amount": 441.61,
+    "creditCardType": "switch",
+    "cardNumber": "493653473206794196",
+    "currency": "MYR",
+    "refNumber": "fb0e30c2-5693-4116-9326-ad43c23e2b7a",
+    "customer": null
+  },
+  {
+    "invoiceNo": 22,
+    "dateTime": "10/5/2021",
+    "amount": 691.32,
+    "creditCardType": "mastercard",
+    "cardNumber": "5426946824101397",
+    "currency": "BRL",
+    "refNumber": "e9d4f98b-b0ad-48b1-a68a-cc1c75c19fd3",
+    "customer": null
+  },
+  {
+    "invoiceNo": 23,
+    "dateTime": "4/6/2022",
+    "amount": 812.89,
+    "creditCardType": "jcb",
+    "cardNumber": "3561140725807118",
+    "currency": "EUR",
+    "refNumber": "846c0e87-9934-4d35-aad1-acfb74873ee9",
+    "customer": null
+  },
+  {
+    "invoiceNo": 24,
+    "dateTime": "6/2/2022",
+    "amount": 1154.62,
+    "creditCardType": "diners-club-carte-blanche",
+    "cardNumber": "30359792009213",
+    "currency": "EUR",
+    "refNumber": "6fcfc1e9-24c7-4850-a5d7-6562e378e34a",
+    "customer": null
+  },
+  {
+    "invoiceNo": 25,
+    "dateTime": "2/3/2022",
+    "amount": 1250.41,
+    "creditCardType": "jcb",
+    "cardNumber": "3583193842443295",
+    "currency": "CNY",
+    "refNumber": "107fe67b-14cf-43b8-97c7-0429bb134a8e",
+    "customer": null
+  },
+  {
+    "invoiceNo": 26,
+    "dateTime": "9/21/2021",
+    "amount": 440.29,
+    "creditCardType": "jcb",
+    "cardNumber": "3579273012535496",
+    "currency": "MXN",
+    "refNumber": "d8b63325-8ae8-42e3-8f5e-3daa84cda2da",
+    "customer": null
+  },
+  {
+    "invoiceNo": 27,
+    "dateTime": "5/11/2022",
+    "amount": 1091.8,
+    "creditCardType": "jcb",
+    "cardNumber": "3544830692824268",
+    "currency": "MYR",
+    "refNumber": "f257f23b-e0b4-4bec-afb0-0ba1ea6eac81",
+    "customer": null
+  },
+  {
+    "invoiceNo": 28,
+    "dateTime": "6/8/2022",
+    "amount": 1110.03,
+    "creditCardType": "mastercard",
+    "cardNumber": "5100140394476420",
+    "currency": "EUR",
+    "refNumber": "ac0b42ff-5e76-43fa-9189-e4897f0608a4",
+    "customer": null
+  },
+  {
+    "invoiceNo": 29,
+    "dateTime": "12/30/2021",
+    "amount": 645.96,
+    "creditCardType": "mastercard",
+    "cardNumber": "5217046879757186",
+    "currency": "NIO",
+    "refNumber": "eb981f3c-35ad-41fc-ba03-083404879385",
+    "customer": null
+  },
+  {
+    "invoiceNo": 30,
+    "dateTime": "11/6/2021",
+    "amount": 522.87,
+    "creditCardType": "jcb",
+    "cardNumber": "3573135921320144",
+    "currency": "BRL",
+    "refNumber": "8c646cf2-b17e-4e98-ad38-0234bd2ead7b",
+    "customer": null
+  },
+  {
+    "invoiceNo": 31,
+    "dateTime": "10/8/2021",
+    "amount": 485.07,
+    "creditCardType": "visa-electron",
+    "cardNumber": "4913934763459466",
+    "currency": "CNY",
+    "refNumber": "6ee8705d-aee5-4abf-bb00-4dc47d2837a1",
+    "customer": null
+  },
+  {
+    "invoiceNo": 32,
+    "dateTime": "2/14/2022",
+    "amount": 490.91,
+    "creditCardType": "diners-club-enroute",
+    "cardNumber": "201796259787943",
+    "currency": "CNY",
+    "refNumber": "6892dc54-8439-4451-8e7b-c8df09567ee3",
+    "customer": null
+  },
+  {
+    "invoiceNo": 33,
+    "dateTime": "3/15/2022",
+    "amount": 665.78,
+    "creditCardType": "switch",
+    "cardNumber": "493629788903903902",
+    "currency": "SEK",
+    "refNumber": "75267898-2646-49ce-a05a-bd84313f061f",
+    "customer": null
+  },
+  {
+    "invoiceNo": 34,
+    "dateTime": "6/28/2022",
+    "amount": 796.87,
+    "creditCardType": "jcb",
+    "cardNumber": "3575626545833684",
+    "currency": "IDR",
+    "refNumber": "add17bfa-19e0-414f-95ba-9eff150658f4",
+    "customer": null
+  },
+  {
+    "invoiceNo": 35,
+    "dateTime": "5/29/2022",
+    "amount": 754.22,
+    "creditCardType": "jcb",
+    "cardNumber": "3574203771256930",
+    "currency": "EUR",
+    "refNumber": "c69f7de5-daff-462d-8216-9929ce680c63",
+    "customer": null
+  },
+  {
+    "invoiceNo": 36,
+    "dateTime": "6/21/2022",
+    "amount": 1113.58,
+    "creditCardType": "china-unionpay",
+    "cardNumber": "56022191483706050",
+    "currency": "CAD",
+    "refNumber": "952d6d27-b729-4ba4-b69f-c570aa284704",
+    "customer": null
+  },
+  {
+    "invoiceNo": 37,
+    "dateTime": "7/9/2022",
+    "amount": 1065.6,
+    "creditCardType": "jcb",
+    "cardNumber": "3569368387381120",
+    "currency": "SDG",
+    "refNumber": "87edc15a-8d89-478d-a62d-a4ae6f25ae89",
+    "customer": null
+  },
+  {
+    "invoiceNo": 38,
+    "dateTime": "9/12/2021",
+    "amount": 1171.7,
+    "creditCardType": "jcb",
+    "cardNumber": "3548233316551456",
+    "currency": "MAD",
+    "refNumber": "03ed50ff-d9f4-41c6-bfaa-8f9853cff3ee",
+    "customer": null
+  },
+  {
+    "invoiceNo": 39,
+    "dateTime": "10/22/2021",
+    "amount": 652.07,
+    "creditCardType": "laser",
+    "cardNumber": "63046560243444798",
+    "currency": "CNY",
+    "refNumber": "260039c6-5e6c-46e7-a25d-60879ac3ca34",
+    "customer": null
+  },
+  {
+    "invoiceNo": 40,
+    "dateTime": "4/29/2022",
+    "amount": 523.01,
+    "creditCardType": "instapayment",
+    "cardNumber": "6395844268106235",
+    "currency": "BRL",
+    "refNumber": "2af0a37c-fdf1-4138-8ede-684630a543d7",
+    "customer": null
+  }
+]

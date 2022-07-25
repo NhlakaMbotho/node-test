@@ -1,0 +1,602 @@
+[
+  {
+    "category": "Pets",
+    "name": "Dog Apparatus",
+    "price": "115",
+    "code": "44-1886157"
+  },
+  {
+    "category": "Health",
+    "name": "First Aid Mechanism",
+    "price": "131",
+    "code": "37-6739339"
+  },
+  {
+    "category": "Electronics",
+    "name": "Technology Item",
+    "price": "57.99",
+    "code": "36-0983803"
+  },
+  {
+    "category": "Beauty",
+    "name": "Skin Care Widget",
+    "price": "116.99",
+    "code": "34-5980498"
+  },
+  {
+    "category": "Electronics",
+    "name": "Technology Instrument",
+    "price": "54.99",
+    "code": "02-1627908"
+  },
+  {
+    "category": "Clothing",
+    "name": "Jewelry Device",
+    "price": "141.95",
+    "code": "71-6158963"
+  },
+  {
+    "category": "Clothing",
+    "name": "Baby Attachment",
+    "price": "87.99",
+    "code": "57-2703660"
+  },
+  {
+    "category": "Activity",
+    "name": "Beach Component",
+    "price": "8",
+    "code": "52-1718784"
+  },
+  {
+    "category": "Beauty",
+    "name": "Hair Care Gadget",
+    "price": "98.99",
+    "code": "17-7744507"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Toy Mechanism",
+    "price": "130.95",
+    "code": "16-1211769"
+  },
+  {
+    "category": "Beauty",
+    "name": "Bath Device",
+    "price": "69.95",
+    "code": "07-4037282"
+  },
+  {
+    "category": "Health",
+    "name": "First Aid Accessory",
+    "price": "117",
+    "code": "84-2133766"
+  },
+  {
+    "category": "Beauty",
+    "name": "Skin Care Gear",
+    "price": "27.99",
+    "code": "88-6954718"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Game Machine",
+    "price": "133.95",
+    "code": "07-4823378"
+  },
+  {
+    "category": "Beauty",
+    "name": "Makeup Contraption",
+    "price": "88.95",
+    "code": "55-5501094"
+  },
+  {
+    "category": "Home",
+    "name": "Home Improvement Doodad",
+    "price": "111.95",
+    "code": "56-6988736"
+  },
+  {
+    "category": "Clothing",
+    "name": "Baby Mechanism",
+    "price": "97",
+    "code": "38-1842659"
+  },
+  {
+    "category": "Beauty",
+    "name": "Skin Care Implement",
+    "price": "37.99",
+    "code": "31-6407339"
+  },
+  {
+    "category": "Electronics",
+    "name": "Computer Apparatus",
+    "price": "58.99",
+    "code": "58-9916479"
+  },
+  {
+    "category": "Pets",
+    "name": "Aquarium Item",
+    "price": "54.99",
+    "code": "76-5479181"
+  },
+  {
+    "category": "Home",
+    "name": "Storage Instrument",
+    "price": "74.99",
+    "code": "97-8502013"
+  },
+  {
+    "category": "Electronics",
+    "name": "Phone Instrument",
+    "price": "176",
+    "code": "06-8192469"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Toy Contraption",
+    "price": "6.99",
+    "code": "24-0868688"
+  },
+  {
+    "category": "Activity",
+    "name": "Outdoors Apparatus",
+    "price": "39.99",
+    "code": "35-9398196"
+  },
+  {
+    "category": "Health",
+    "name": "Nutrition Machine",
+    "price": "108.99",
+    "code": "72-3385138"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Music Apparatus",
+    "price": "23",
+    "code": "70-3430716"
+  },
+  {
+    "category": "Health",
+    "name": "Nutrition Machine",
+    "price": "128.95",
+    "code": "65-9161295"
+  },
+  {
+    "category": "Clothing",
+    "name": "Jewelry Implement",
+    "price": "98.95",
+    "code": "63-0281388"
+  },
+  {
+    "category": "Health",
+    "name": "Nutrition Implement",
+    "price": "173.95",
+    "code": "66-8855806"
+  },
+  {
+    "category": "Activity",
+    "name": "Swimming Implement",
+    "price": "138.99",
+    "code": "18-7998285"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Book Kit",
+    "price": "65",
+    "code": "10-4269341"
+  },
+  {
+    "category": "Activity",
+    "name": "Biking Doodad",
+    "price": "13.99",
+    "code": "03-9517832"
+  },
+  {
+    "category": "Home",
+    "name": "Kitchen Mechanism",
+    "price": "100.95",
+    "code": "17-8102813"
+  },
+  {
+    "category": "Automotive",
+    "name": "Tire Instrument",
+    "price": "91.99",
+    "code": "42-2629505"
+  },
+  {
+    "category": "Activity",
+    "name": "Biking Component",
+    "price": "45.95",
+    "code": "83-3350446"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Movie Component",
+    "price": "48",
+    "code": "61-5681018"
+  },
+  {
+    "category": "Health",
+    "name": "Vitamin Thingamajig",
+    "price": "100.99",
+    "code": "66-7778114"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Party Accessory",
+    "price": "131.95",
+    "code": "64-1308996"
+  },
+  {
+    "category": "Health",
+    "name": "Medicine Supplies",
+    "price": "140",
+    "code": "78-8839852"
+  },
+  {
+    "category": "Activity",
+    "name": "Fitness Whatchamacallit",
+    "price": "102.99",
+    "code": "28-9228616"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Game Paraphernalia",
+    "price": "62.95",
+    "code": "85-3725536"
+  },
+  {
+    "category": "Clothing",
+    "name": "Jewelry Equipment",
+    "price": "124.99",
+    "code": "55-0695449"
+  },
+  {
+    "category": "Automotive",
+    "name": "Engine Item",
+    "price": "94.99",
+    "code": "86-2486930"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Game Device",
+    "price": "19.99",
+    "code": "92-2456656"
+  },
+  {
+    "category": "Pets",
+    "name": "Cat Device",
+    "price": "157.99",
+    "code": "87-2976928"
+  },
+  {
+    "category": "Automotive",
+    "name": "Tire Supplies",
+    "price": "37",
+    "code": "35-1144935"
+  },
+  {
+    "category": "Automotive",
+    "name": "Truck Mechanism",
+    "price": "11",
+    "code": "34-7862119"
+  },
+  {
+    "category": "Home",
+    "name": "Home Improvement Gizmo",
+    "price": "98",
+    "code": "80-6802654"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Toy Mechanism",
+    "price": "152.99",
+    "code": "00-7456483"
+  },
+  {
+    "category": "Activity",
+    "name": "Biking Supplies",
+    "price": "32.95",
+    "code": "41-2733596"
+  },
+  {
+    "category": "Clothing",
+    "name": "Womens Paraphernalia",
+    "price": "48.95",
+    "code": "53-4801562"
+  },
+  {
+    "category": "Home",
+    "name": "Dining Doodad",
+    "price": "152.95",
+    "code": "08-7952855"
+  },
+  {
+    "category": "Activity",
+    "name": "Camping Attachment",
+    "price": "21.95",
+    "code": "49-8411015"
+  },
+  {
+    "category": "Automotive",
+    "name": "Car Gadget",
+    "price": "33.95",
+    "code": "68-8437622"
+  },
+  {
+    "category": "Clothing",
+    "name": "Baby Supplies",
+    "price": "69",
+    "code": "53-7873150"
+  },
+  {
+    "category": "Pets",
+    "name": "Dog Attachment",
+    "price": "26",
+    "code": "60-6370900"
+  },
+  {
+    "category": "Beauty",
+    "name": "Hair Care Item",
+    "price": "139.95",
+    "code": "36-6700822"
+  },
+  {
+    "category": "Home",
+    "name": "Storage Whatchamacallit",
+    "price": "115.95",
+    "code": "82-6714849"
+  },
+  {
+    "category": "Health",
+    "name": "Medicine Device",
+    "price": "81.99",
+    "code": "85-9967835"
+  },
+  {
+    "category": "Home",
+    "name": "Dining Paraphernalia",
+    "price": "87.99",
+    "code": "68-7328085"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Music Device",
+    "price": "34.95",
+    "code": "98-7723417"
+  },
+  {
+    "category": "Activity",
+    "name": "Beach Equipment",
+    "price": "92",
+    "code": "06-8786221"
+  },
+  {
+    "category": "Clothing",
+    "name": "Jewelry Machine",
+    "price": "92",
+    "code": "19-8046609"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Movie Gear",
+    "price": "130.99",
+    "code": "69-3400811"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Toy Thingamajig",
+    "price": "47",
+    "code": "93-5927412"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Movie Accessory",
+    "price": "72.99",
+    "code": "88-3944575"
+  },
+  {
+    "category": "Home",
+    "name": "Furniture Contraption",
+    "price": "91.99",
+    "code": "53-1095586"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Movie Apparatus",
+    "price": "13",
+    "code": "42-0678786"
+  },
+  {
+    "category": "Home",
+    "name": "Dining Attachment",
+    "price": "52.99",
+    "code": "72-1842302"
+  },
+  {
+    "category": "Health",
+    "name": "First Aid Doodad",
+    "price": "54",
+    "code": "88-6994042"
+  },
+  {
+    "category": "Automotive",
+    "name": "Engine Equipment",
+    "price": "73",
+    "code": "77-1586230"
+  },
+  {
+    "category": "Automotive",
+    "name": "Car Doodad",
+    "price": "91.99",
+    "code": "14-1647468"
+  },
+  {
+    "category": "Automotive",
+    "name": "Tire Paraphernalia",
+    "price": "18",
+    "code": "75-9995375"
+  },
+  {
+    "category": "Health",
+    "name": "First Aid Doodad",
+    "price": "97",
+    "code": "87-4131661"
+  },
+  {
+    "category": "Electronics",
+    "name": "Computer Whatchamacallit",
+    "price": "55",
+    "code": "57-1316816"
+  },
+  {
+    "category": "Home",
+    "name": "Kitchen Thingamajig",
+    "price": "75.95",
+    "code": "12-0656281"
+  },
+  {
+    "category": "Pets",
+    "name": "Cat Accessory",
+    "price": "85.95",
+    "code": "34-6022304"
+  },
+  {
+    "category": "Beauty",
+    "name": "Skin Care Gear",
+    "price": "72.95",
+    "code": "53-7021730"
+  },
+  {
+    "category": "Home",
+    "name": "Gardening Kit",
+    "price": "49.95",
+    "code": "33-4376140"
+  },
+  {
+    "category": "Pets",
+    "name": "Dog Instrument",
+    "price": "15.99",
+    "code": "56-9024760"
+  },
+  {
+    "category": "Activity",
+    "name": "Fitness Widget",
+    "price": "105.99",
+    "code": "08-2466546"
+  },
+  {
+    "category": "Automotive",
+    "name": "Car Apparatus",
+    "price": "69.95",
+    "code": "98-8410053"
+  },
+  {
+    "category": "Activity",
+    "name": "Beach Implement",
+    "price": "98.99",
+    "code": "97-1012574"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Music Implement",
+    "price": "109",
+    "code": "93-0369299"
+  },
+  {
+    "category": "Entertainment",
+    "name": "Party Tool",
+    "price": "102.95",
+    "code": "78-3814231"
+  },
+  {
+    "category": "Clothing",
+    "name": "Baby Whatchamacallit",
+    "price": "88.99",
+    "code": "48-1010606"
+  },
+  {
+    "category": "Electronics",
+    "name": "Camera Device",
+    "price": "15.99",
+    "code": "33-2380925"
+  },
+  {
+    "category": "Clothing",
+    "name": "Jewelry Gear",
+    "price": "63.95",
+    "code": "74-1199661"
+  },
+  {
+    "category": "Health",
+    "name": "First Aid Gear",
+    "price": "40.99",
+    "code": "00-7422794"
+  },
+  {
+    "category": "Home",
+    "name": "Furniture Apparatus",
+    "price": "108.99",
+    "code": "48-7398394"
+  },
+  {
+    "category": "Health",
+    "name": "Medicine Whatchamacallit",
+    "price": "106.99",
+    "code": "36-9408807"
+  },
+  {
+    "category": "Home",
+    "name": "Kitchen Contraption",
+    "price": "115.99",
+    "code": "08-7842701"
+  },
+  {
+    "category": "Pets",
+    "name": "Dog Instrument",
+    "price": "73",
+    "code": "32-8956836"
+  },
+  {
+    "category": "Electronics",
+    "name": "Computer Tool",
+    "price": "152",
+    "code": "26-8862346"
+  },
+  {
+    "category": "Clothing",
+    "name": "Kids Gizmo",
+    "price": "9",
+    "code": "75-2998447"
+  },
+  {
+    "category": "Beauty",
+    "name": "Bath Kit",
+    "price": "48",
+    "code": "49-8444611"
+  },
+  {
+    "category": "Clothing",
+    "name": "Womens Whatchamacallit",
+    "price": "17.99",
+    "code": "85-5635627"
+  },
+  {
+    "category": "Beauty",
+    "name": "Hair Care Paraphernalia",
+    "price": "106.99",
+    "code": "15-6836479"
+  },
+  {
+    "category": "Health",
+    "name": "Nutrition Accessory",
+    "price": "52",
+    "code": "83-0637431"
+  },
+  {
+    "category": "Activity",
+    "name": "Sports Tool",
+    "price": "44",
+    "code": "30-1416864"
+  }
+]
