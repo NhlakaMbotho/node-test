@@ -1,172 +1,263 @@
 module.exports = {
-  openapi: "3.0.1",
-  info: {
-    version: "1.0.0",
-    title: "Invoices APIs Document",
-    description: "APIs document for all operations on the inboxes app.",
-    termsOfService: "",
-    contact: {
-      name: "Phathutshedzo Khabubu"
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Invoices APIs Document",
+    "description": "APIs document for all operations on the inboxes app.",
+    "termsOfService": "",
+    "contact": {
+      "name": "Phathutshedzo Khabubu"
     },
-    license: {
-      name: "MIT",
-      url: "https://opensource.org/licenses/MIT"
-    }
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": "1.0.0"
   },
-  servers: [
+  "servers": [
     {
-      url: "/"
+      "url": "/"
     }
   ],
-  paths: {
+  "paths": {
     "/invoices": {
-      get: {
-        summary: "Gets a list of all invoices",
-        description:
-          "By passing in the appropriate options, you can search for\navailable invoices in the system\n",
-        operationId: "searchInventory",
-        responses: {
+      "get": {
+        "summary": "Gets a list of all invoices",
+        "description": "By passing in the appropriate options, you can search for\navailable invoices in the system\n",
+        "operationId": "getInvoices",
+        "responses": {
           "200": {
-            description: "search results matching criteria",
-            content: {
+            "description": "Returns a list of invoices",
+            "content": {
               "application/json": {
-                schema: {
-                  type: "array",
-                  items: {
-                    $ref: "#/components/schemas/Invoice"
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Invoice"
                   }
                 }
               }
             }
-          },
-          "400": {
-            description: "bad input parameter"
           }
         }
       },
-      post: {
-        summary: "adds an invoice item",
-        description: "Adds an invoice to the system",
-        operationId: "addInvoice",
-        requestBody: {
-          description: "Invoice item to add",
-          content: {
+      "post": {
+        "summary": "Adds an invoice",
+        "operationId": "addInvoice",
+        "requestBody": {
+          "description": "Invoice item to add",
+          "content": {
             "application/json": {
-              schema: {
-                $ref: "#/components/schemas/Invoice"
+              "schema": {
+                "$ref": "#/components/schemas/Invoice"
               }
             }
           }
         },
-        responses: {
+        "responses": {
           "201": {
-            description: "Invoice created"
-          },
-          "400": {
-            description: "invalid input, object invalid"
+            "description": "Invoice created"
           },
           "409": {
-            description: "an existing item already exists"
+            "description": "Invoice already exists"
+          }
+        }
+      }
+    },
+    "/invoices/{id}": {
+      "get": {
+        "summary": "Get invoice by id",
+        "operationId": "getInvoiceById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Invoice ID",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Invoice returned"
+          },
+          "404": {
+            "description": "Invoice does not exists"
+          }
+        }
+      },
+      "put": {
+        "summary": "Updates an existing invoice",
+        "operationId": "updateInvoice",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Invoice ID",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Invoice to update",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Invoice"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Invoice updated"
+          },
+          "404": {
+            "description": "Invoice does not exists"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete an existing invoice",
+        "operationId": "deleteInvoice",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Invoice ID",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Invoice deleted"
+          },
+          "404": {
+            "description": "Invoice does not exists"
           }
         }
       }
     }
   },
-  components: {
-    schemas: {
-      Invoice: {
-        required: [
+  "components": {
+    "schemas": {
+      "Invoice": {
+        "required": [
           "amount",
           "creditCardType",
           "currency",
           "customer",
-          "name",
+          "items",
           "refNumber"
         ],
-        type: "object",
-        properties: {
-          id: {
-            type: "string",
-            format: "int64",
-            example: "3"
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "integer",
+            "example": 3
           },
-          creditCardType: {
-            type: "string",
-            example: "jcb"
+          "creditCardType": {
+            "type": "string",
+            "example": "jcb"
           },
-          refNumber: {
-            type: "string",
-            example: "jce9d4f98b-b0ad-48b1-a68a-cc1c75c19fd3"
+          "refNumber": {
+            "type": "string",
+            "example": "jce9d4f98b-b0ad-48b1-a68a-cc1c75c19fd3"
           },
-          currency: {
-            type: "string",
-            example: "ZAR"
+          "currency": {
+            "type": "string",
+            "example": "ZAR"
           },
-          amount: {
-            type: "number",
-            format: "number",
-            example: 3
+          "amount": {
+            "type": "string",
+            "example": '300.00'
           },
-          dateTime: {
-            type: "string",
-            format: "date-time",
-            example: "2016-08-29T09:12:33.001Z"
+          "dateTime": {
+            "type": "string",
+            "example": "2016-08-29T09:12:33.001Z"
           },
-          customer: {
-            $ref: "#/components/schemas/Customer"
+          "customer": {
+            "$ref": "#/components/schemas/Customer"
           },
-          items: {
-            type: "array",
-            items: {
-              $ref: "#/components/schemas/Item"
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Item"
             }
           }
         }
       },
-      Customer: {
-        required: ["email", "firstName", "lastName", "name"],
-        type: "object",
-        properties: {
-          id: {
-            type: "number",
-            format: "int64",
-            example: 3
+      "Customer": {
+        "required": [
+          "email",
+          "firstName",
+          "id",
+          "lastName"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "format": "int64",
+            "example": 3
           },
-          firstName: {
-            type: "string"
+          "firstName": {
+            "type": "string"
           },
-          lastName: {
-            type: "string"
+          "lastName": {
+            "type": "string"
           },
-          email: {
-            type: "string",
-            format: "email"
+          "email": {
+            "type": "string",
+            "format": "email"
           }
         }
       },
-      Item: {
-        required: ["category", "code", "name", "price"],
-        type: "object",
-        properties: {
-          id: {
-            type: "number",
-            format: "int64",
-            example: 3
+      "Item": {
+        "required": [
+          "category",
+          "code",
+          "id",
+          "name",
+          "price"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "format": "int64",
+            "example": 3
           },
-          code: {
-            type: "string"
+          "code": {
+            "type": "string"
           },
-          name: {
-            type: "string"
+          "name": {
+            "type": "string"
           },
-          category: {
-            type: "string"
+          "category": {
+            "type": "string"
           },
-          price: {
-            type: "number"
+          "price": {
+            "type": "number"
           }
         }
       }
     }
   }
-};
+}

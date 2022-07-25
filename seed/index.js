@@ -26,10 +26,10 @@ const init = () => {
   for (const invoice of invoices) {
     invoice.customer = customers[randomIndex(customers.length - 1)];
     invoice.items = getItems();
-    invoice.amount = invoice.items.reduce(
+    invoice.amount = Number(invoice.items.reduce(
       (prevValue, currentValue) => Number(currentValue.price) + prevValue,
       0
-    );
+    )).toFixed(2);
   }
   return invoices;
 };

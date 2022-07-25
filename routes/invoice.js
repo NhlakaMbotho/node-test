@@ -1,14 +1,17 @@
 const express = require("express");
 const router = express.Router();
 const InvoiceDbContext = require("../db-context/invoice.context");
+const ValidationError = require('../models/validation-error');
+const validators = require('../validators');
 
-const invoiceBbContext = new InvoiceDbContext();
+InvoiceDbContext.init()
 
 router.get("/", (req, res, next) => {
   try {
-    const invoices = invoiceBbContext.getAll();
+    const invoices = InvoiceDbContext.getAll();
 
     res.send(invoices);
+
   } catch (error) {
     next(error);
   }
@@ -16,9 +19,10 @@ router.get("/", (req, res, next) => {
 
 router.get("/:id", (req, res, next) => {
   try {
-    const invoice = invoiceBbContext.getById(req.params.id);
+    const invoice = InvoiceDbContext.getById(req.params.id);
 
     res.send(invoice);
+
   } catch (error) {
     next(error);
   }
@@ -26,28 +30,35 @@ router.get("/:id", (req, res, next) => {
 
 router.post("/", (req, res, next) => {
   try {
-    const invoices = invoiceBbContext.getAll();
-    res.send(invoices);
+    validators.validate('Invoice', req.body);
+
+    const invoice = InvoiceDbContext.postInvoice(req.body);
+
+    res.status(201).send(invoice);
   } catch (error) {
     next(error);
   }
 });
 
-router.put("/:id", async (req, res, next) => {
+router.put("/:id", (req, res, next) => {
   try {
-    const updatedInvoice = await invoiceBbContext.updateInvoice(req.params.id);
 
-    res.send(updatedInvoice).status(201);
+    const validationResponse = validators.updateValidator('Invoice', req.body);
+
+    const updatedInvoice = InvoiceDbContext.updateInvoice(req.params.id, req.body);
+
+    res.sendStatus(204);
   } catch (error) {
     next(error);
   }
 });
 
-router.delete("/:id", async (req, res, next) => {
+router.delete("/:id", (req, res, next) => {
   try {
-    await invoiceBbContext.updateInvoice(req.params.id);
+    InvoiceDbContext.deleteInvoice(req.params.id);
 
-    res.status(204);
+    res.sendStatus(204);
+
   } catch (error) {
     next(error);
   }

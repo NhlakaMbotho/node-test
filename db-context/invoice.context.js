@@ -1,46 +1,54 @@
 const ServiceError = require("../models/service-error");
+const Invoice = require("../models/invoice");
 const init = require("../seed");
 
 module.exports = class InvoiceDbContext {
   _invoices = null;
 
-  constructor() {
-    this._invoices = init() || [];
+  constructor () { }
+
+  static init () {
+    this._invoices = init().map(invoice => new Invoice(invoice)) || [];
   }
 
-  getById(id) {
+  static getById (id) {
     const index = this._verifyById(id);
     return this._invoices[index];
   }
 
-  getAll() {
+  static getAll () {
     return this._invoices;
   }
 
-  deleteInvoice(id) {
+  static deleteInvoice (id) {
     const index = this._verifyById(id);
-    this._invoices.pop(index);
+    this._invoices.splice(index, 1)
     return;
   }
 
-  updateInvoice(id, invoiceData) {
-    const index = this._verifyById(id);
-    this._invoices[index] = invoiceData;
+  static updateInvoice (id, invoiceData) {
+    invoiceData.id = Number(id)
+    const index = this._verifyById(invoiceData.id);
+    this._invoices[index] = new Invoice(invoiceData);
   }
 
-  postInvoice(invoiceData) {
-    this._invoices.push(invoiceData);
+  static postInvoice (invoiceData) {
+    invoiceData.id = Number(invoiceData.id)
+    if (this._invoices.findIndex(i => i.id === invoiceData.id) > -1) {
+      throw new ServiceError(`Invoice with id ${invoiceData.id} already exists`, 'ALREADY_EXISTS', 409)
+    }
+    this._invoices.push(new Invoice(invoiceData));
+    return invoiceData;
   }
 
   /**
-   * Re-usable function to check if invoice exists
    * @param {number} id
-   * @returns {init} index
+   * @returns {number} index
    */
-  _verifyById(id) {
-    const index = this._invoices.findIndex((i) => i.invoiceNo === id);
+  static _verifyById (id) {
+    const index = this._invoices.findIndex(i => i.id === Number(id));
     if (index === -1) {
-      throw new ServiceError(`Invoice ${id} does not exist`, "NOT_FOUND", 401);
+      throw new ServiceError(`Invoice ${id} does not exist`, "NOT_FOUND", 404);
     }
     return index;
   }
